@@ -64,21 +64,25 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  background-image: url('../img/kdd-surfer.gif');
+  background-image: url('../img/KDD2020-banner.gif');
 }
 
 header.masthead .masthead-content {
   z-index: 1;
+  padding-top: calc(8rem + 50px);
+
   position: bottom;
 }
 
 header.masthead .masthead-content .masthead-heading {
-  font-size: 2rem;
+  font-size: 3rem;
+  background: rgba(255,255,255,0.7);
 }
 
 header.masthead .masthead-content .masthead-subheading {
   font-size: 1rem;
   padding:1em 0 0.5em 0;
+  background: rgba(255,255,255,0.6);
 }
 
 
